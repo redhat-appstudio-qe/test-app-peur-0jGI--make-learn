@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: build-suite-test-bundle-overridingiodv
     app.kubernetes.io/part-of: test-app-peur
-  name: build-suite-test-bundle-ohsi2
+  name: build-suite-test-bundle-oiocf
   namespace: build-e2e-eugt-tenant
 spec:
   port:

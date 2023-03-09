@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: build-suite-test-bundle-overridingiodv
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:b86c225b3f144f66af1c7357f28f0e80
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:3b2ed7a2444d90f69890bacc095812cb26abfbcc856ddba7754167c94fdb428f
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
