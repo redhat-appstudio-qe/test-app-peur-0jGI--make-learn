@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: build-suite-test-bundle-overridingiodv
+  namespace: build-e2e-eugt-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:3b2ed7a2444d90f69890bacc095812cb26abfbcc856ddba7754167c94fdb428f
+        name: container-image
+        resources: {}
+status: {}
